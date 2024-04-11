@@ -57,5 +57,5 @@ jobs:
         destination-repository-name: 'action-target'
         user-name: GHA build process
         create-target-branch-if-needed: true
-        commit-message: ${{ github.event.head_commit.message }}
+        commit-message: Original commit message - ${{ github.event.head_commit.message }}
         target-branch: ${{ github.ref_name }}
